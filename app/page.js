@@ -9,10 +9,11 @@ export default function Page() {
       </header>
       <main>
         <section className="flex flex-col items-center justify-center text-center gap-12 px-8 py-24">
-          <h1 className="text-3xl font-extrabold">Ship Fast ⚡️</h1>
+          <h1 className="text-3xl font-extrabold">Skattekollen</h1>
 
           <p className="text-lg opacity-80">
-            The start of your new startup... What are you gonna build?
+            Svenska arbetare och företagare betalar (XYZ)kr i årlig
+            kommunalskatt varje år. Vad får vi för pengarna?
           </p>
 
           <a
@@ -20,7 +21,7 @@ export default function Page() {
             href="https://shipfa.st/docs"
             target="_blank"
           >
-            Documentation & tutorials{" "}
+            Räkna och se{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -36,7 +37,7 @@ export default function Page() {
           </a>
 
           <Link href="/blog" className="link link-hover text-sm">
-            Fancy a blog?
+            Lär dig mer om Skattekollen.
           </Link>
         </section>
       </main>
